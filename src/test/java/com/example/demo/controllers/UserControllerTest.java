@@ -49,6 +49,7 @@ public class UserControllerTest {
         assertEquals(0, u.getId());
         assertEquals("Aaron", u.getUsername());
         assertEquals("thisIsMocked", u.getPassword());
+
     }
 
     @Test
