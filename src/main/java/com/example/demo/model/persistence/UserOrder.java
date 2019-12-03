@@ -82,4 +82,13 @@ public class UserOrder {
         return order;
     }
 
+    @Override
+    public String toString() {
+        return "UserOrder{" +
+                "id=" + id +
+                ", items=" + items +
+                ", user=" + user +
+                ", total=" + total +
+                '}';
+    }
 }
